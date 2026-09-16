@@ -33,7 +33,7 @@ pip install -r requirements.txt       # numpy>=1.23, pytest>=7.0
 python -m pytest tests -q             # full test suite (59 tests)
 ./scripts/run_tests.sh                # same, via wrapper
 npx wrangler deploy                    # publish public/ to
-                                      # uav-safe-sim.<account>.workers.dev
+                                      # uav-safe-sim-v2.<account>.workers.dev
 npx wrangler deploy --dry-run          # validate deploy without publishing
 ```
 
